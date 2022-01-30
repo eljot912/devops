@@ -1,0 +1,11 @@
+global:
+  namespaces:
+    - some-new-namespace:
+        secrets:
+        - one-auth-secret
+        - another-auth-secret
+        - and-another-secret
+    - current-namespace:
+        secrets:
+        - another-auth-secret
+        - and-another-secret
